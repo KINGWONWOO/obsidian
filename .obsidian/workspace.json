@@ -1,0 +1,452 @@
+{
+  "main": {
+    "id": "18c3f66be31aa385",
+    "type": "split",
+    "children": [
+      {
+        "id": "b90d7f0ed11e53e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a5fbacb456ca4a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/일일 공부/1-UE5 C++(24.06.25.~24.08.03.)/2024.06.28..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.06.28."
+            }
+          },
+          {
+            "id": "ddc9301e532c81c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/일일 공부/1-UE5 C++(24.06.25.~24.08.03.)/2024.07.21.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.07.21"
+            }
+          },
+          {
+            "id": "8d466f1ffe5f3581",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/일일 공부/1-UE5 C++(24.06.25.~24.08.03.)/2024.07.21.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.07.21"
+            }
+          },
+          {
+            "id": "75ce5b1aee3eb012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/일일 공부/1-UE5 C++(24.06.25.~24.08.03.)/2024.06.25..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.06.25."
+            }
+          },
+          {
+            "id": "4adb2c3f1b607d56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/일일 공부/1-UE5 C++(24.06.25.~24.08.03.)/2024.06.27..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.06.27."
+            }
+          },
+          {
+            "id": "5e379da51f6fffff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/졸업과제/2025.02.14 미팅 준비 자료.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025.02.14 미팅 준비 자료"
+            }
+          },
+          {
+            "id": "d47f1d1c4ab140e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/기타 자료/아이디.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "아이디"
+            }
+          },
+          {
+            "id": "2c8eeddab5f10772",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/졸업과제/무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
+          },
+          {
+            "id": "d799676960efac0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/졸업과제/필요 수정 사항.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "필요 수정 사항"
+            }
+          },
+          {
+            "id": "8d643e5ef2bada77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/기타 자료/아이디.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "아이디"
+            }
+          },
+          {
+            "id": "9d63013d9361e411",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/기타 자료/아이디.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "아이디"
+            }
+          },
+          {
+            "id": "373169e6e0b00f76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/기타 자료/아이디.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "아이디"
+            }
+          },
+          {
+            "id": "684bc2340adea85b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/기타 자료/아이디.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "아이디"
+            }
+          },
+          {
+            "id": "0e61668afca9dd03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/기타 자료/아이디.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "아이디"
+            }
+          },
+          {
+            "id": "f106b9465a56312e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/기타 자료/아이디.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "아이디"
+            }
+          },
+          {
+            "id": "fe79808f6b4321ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 공부/기타 자료/아이디.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "아이디"
+            }
+          },
+          {
+            "id": "bbd9020349b8a189",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "언리얼 공부/Unreal/일일 공부/3-UE5 DynamicSky(24.10.04.~24.11.01)/2024.10.07.(하늘 돔 및 DMI).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.10.07.(하늘 돔 및 DMI)"
+            }
+          },
+          {
+            "id": "ea5cf5e918c3f592",
+            "type": "leaf",
+            "state": {
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin Updates"
+            }
+          }
+        ],
+        "currentTab": 17
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "880512c4c933c9f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "05bb6980a0a5cfbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3a8b87bf52b920c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "1d5270e475cef4b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "02b9a43343c1c588",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5
+  },
+  "right": {
+    "id": "f1f83bb654429914",
+    "type": "split",
+    "children": [
+      {
+        "id": "bad6492827e61f2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "120788fea71d5583",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "기타 공부/자격증/정처기 실기 시험전 볼 노트.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "정처기 실기 시험전 볼 노트의 백링크"
+            }
+          },
+          {
+            "id": "ba5a300f9d53fb8b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "기타 공부/자격증/정처기 실기 시험전 볼 노트.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "정처기 실기 시험전 볼 노트의 나가는 링크"
+            }
+          },
+          {
+            "id": "17c68e2baf2778dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "17f96b35c8bc877f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "기타 공부/자격증/정처기 실기 시험전 볼 노트.md"
+              },
+              "icon": "lucide-list",
+              "title": "정처기 실기 시험전 볼 노트 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "ea5cf5e918c3f592",
+  "lastOpenFiles": [
+    "언리얼 공부/Unreal/일일 공부/3-UE5 DynamicSky(24.10.04.~24.11.01)/2024.10.06.(속성 조절 및 하늘 돔).md",
+    "언리얼 공부/Unreal/일일 공부/3-UE5 DynamicSky(24.10.04.~24.11.01)/2024.10.05.(해와달).md",
+    "언리얼 공부/Unreal/일일 공부/3-UE5 DynamicSky(24.10.04.~24.11.01)/2024.10.04.(BP 생성).md",
+    "기타 공부/학교 수업/공학작문.md",
+    "기타 공부/GIt/코딩 애플.md",
+    "언리얼 공부/Unreal/개인 프로젝트/게임 개발/언리얼 AI 별 프롬프트 정리.md",
+    "기타 공부/기타 자료/아이디.md",
+    "기타 공부/기타 자료/보컬.md",
+    "게임개발/게임기획서.md",
+    "언리얼 공부/Unreal/오류 발생-해결.md",
+    "언리얼 공부/Unreal/일일 공부/5-UE5 Multi.md",
+    "언리얼 공부/Unreal/일일 공부/4-UE5 Niagara VFX(24.11.11~/2024.12.11..md",
+    "언리얼 공부/Unreal/일일 공부/4-UE5 Niagara VFX(24.11.11~/00 - Niagara Module 종류.md",
+    "언리얼 공부/Unreal/일일 공부/4-UE5 Niagara VFX(24.11.11~/2024.11.11.(Mt단축키, NG 기초 설정, SUb UV).md",
+    "기타 공부/기타 자료/프롬프트 예시.md",
+    "2025-03-28.md",
+    "무제.md",
+    "취미 생활/파트 분배!.md",
+    "취미 생활/공연 공지 1.md",
+    "게임개발/무제.md",
+    "기타 공부/자격증/Topcit.md",
+    "게임개발",
+    "언리얼 공부/Unreal/코드 정리/기타 유용한 코드/Enhanced Input.md",
+    "언리얼 공부/Unreal/개인 프로젝트/게임 개발/프로젝트 시작 시 세팅.md",
+    "Image/Pasted image 20250604165510.png",
+    "언리얼 공부/Unreal/일일 공부/1-UE5 C  (24.06.25.~24.08.03.)/2024.07.09.md",
+    "언리얼 공부/Unreal/개인 프로젝트/게임 개발",
+    "언리얼 공부/Unreal/일일 공부/1-UE5 C  (24.06.25.~24.08.03.)/2024.07.13.md",
+    "언리얼 공부/Unreal/일일 공부/1-UE5 C  (24.06.25.~24.08.03.)/2024.07.17.md",
+    "언리얼 공부/만다라트/로직(블루프린트 & C++)/C++로 AI NPC 생성",
+    "언리얼 공부/만다라트/로직(블루프린트 & C++)/블루프린트 노드 모음",
+    "언리얼 공부/만다라트/로직(블루프린트 & C++)/C++ 함수 모음",
+    "언리얼 공부/만다라트/로직(블루프린트 & C++)/C++특징",
+    "언리얼 공부/만다라트/로직(블루프린트 & C++)/UI",
+    "언리얼 공부/만다라트/로직(블루프린트 & C++)/사용자 조작",
+    "언리얼 공부/만다라트/로직(블루프린트 & C++)/액터 간 상호작용",
+    "시네마틱 공부/만다라트/로직(블루프린트 & C++)/블루프린트 기초 용어/무제",
+    "Image/Pasted image 20241023224155.png",
+    "Image/Pasted image 20241023223740.png",
+    "Image/Pasted image 20241023223634.png",
+    "Image/Pasted image 20241023222357.png",
+    "Image/Pasted image 20241023222137.png",
+    "Image/Pasted image 20241023221406.png",
+    "Image/Pasted image 20241023221226.png",
+    "Image/Pasted image 20241023221128.png",
+    "Image/Pasted image 20241023221057.png",
+    "무제 파일.canvas"
+  ]
+}

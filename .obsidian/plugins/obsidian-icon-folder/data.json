@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "migrated": 5,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "🗒",
+      "🎲",
+      "⚠",
+      "⌨",
+      "✏"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "언리얼 공부/Unreal/개념 정리.md": "✏",
+  "언리얼 공부/Unreal/단축키.md": "⌨",
+  "언리얼 공부/Unreal/오류 발생-해결.md": "⚠",
+  "언리얼 공부/Unreal/일일 공부": "📖",
+  "언리얼 공부/Unreal/코드 정리": "📋"
+}
