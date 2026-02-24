@@ -10,9 +10,9 @@
 - Object : data와 operation의 집합, 무언가를 대표하는 것
 - Actor : Object
 - Component : Actor를 구성하는 Object
-<img src="../../../../Image/Pasted image 20240625203721.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240625203721.png">
 - 블루프린트에서 StaticMeshComponent 불러오기
-<img src="../../../../Image/Pasted image 20240625203802.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240625203802.png">
 - 뷰 포트에서 큐브 선택 후 블루프린트 우클릭
 - Reference : 주소 참조하기
 
@@ -22,14 +22,14 @@
 - 힘이 가해지는 벡터 값은 '힘 = 질량 * 가속도', 'Impulse = 질량 * 속도 변화량' 참고하여 계산
 - 입력 칸 안에서 사칙연산 가능
 -  Vel Change 체크 시 질량 무시 가능
-<img src="../../../../Image/Pasted image 20240625204958.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240625204958.png">
 
 ##### 16강
 - Class : Object를 만드는 템플릿
 - Instance : Class로 만든 Object
 - Unreal에서의 Class -> 블루프린트
 - 다음과 버튼으로도 생성 가능(외는 직접 생성)
-<img src="../../../../Image/Pasted image 20240625210100.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240625210100.png">
 
 ##### 17강
 - Spawning : 플레이 도중 Object를 생성
@@ -81,12 +81,12 @@
 
 ##### 34강
 - 5초 지연 후 레벨을 다시 시작
-<img src="../../../../Image/Pasted image 20240627152322.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240627152322.png">
 
 #### 장애물 공격 게임 제작 시작(36강 ~ 68강)
 ##### 38강
 - 3인칭 Blueprint에서 캐릭터를 하나 생성할 때마다 Create Child로 생성하는 버릇 들이기
-- <img src="../../../../Image/Pasted image 20240627161455.png">
+- <img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240627161455.png">
 - Parent Third Person Blueprint에서 Turn에 오류 발생 시 Turn Right로 대체
 
 ##### 43강
@@ -103,7 +103,7 @@
 - C++ Class를 생성했으나 보이지 않을 시 (좌측 상단 Tools -> Refresh -> Open)
 - 그래도 workspace로 들어갈 수 없을 경우 저장 디렉토리의 .code-workspace를 열기
 - VS code에서 컴파일 하는 법 : ctrl + shift + B 후 'win64 development build' 선택
-- 에디터에서 라이브코딩 하는 법 : 다음 버튼을 클릭<img src="../../../../Image/Pasted image 20240627185326.png">
+- 에디터에서 라이브코딩 하는 법 : 다음 버튼을 클릭<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240627185326.png">
 
 ##### 46강
 - 라이브 코딩으로 인한 변경 값 손실 방지 : 에디터를 닫으면 무조건 Vs code에서 재컴파일
@@ -116,7 +116,7 @@
 
 ##### 49강
 - Detail 패널의 값 우클릭으로 간편하게 복사 가능
-<img src="../../../../Image/Pasted image 20240627192553.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240627192553.png">
 
 ##### 52강
 - Pseudo code(의사 코드) : Comment등으로 작성되는 코드에 대한 설명
@@ -124,42 +124,42 @@
 #### Unreal Engine 5 C++ 개발자  
 ##### 53강
 - GetActorLocation()으로 현재 위치 가져오기 가능(반환값은 FVector)
-<img src="../../../../Image/Pasted image 20240628124138.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628124138.png">
 
 ##### 54강
 - Vector값에 변화를 줘 Actor를 이동시킬 경우 직접적인 값 연산보다 FVector 타입의 Velocity를 따로 선언하여 연산에 사용하는 것이 안전
 - 이때 프레임률을 위해 DeltaTime을 곱해주어야함
-<img src="../../../../Image/Pasted image 20240628124312.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628124312.png">
 - UPROPERTY(Category = " ")를 통해 Detail창에서의 카테고리 구분 가능
 
 ##### 55강
 - 코드 작성시 Actor가 범용으로 사용될 수 있게 작성할 것(시작 위치 초기화 X)
 - 코드 내부에서만 사용할 변수라면 UPROPERTY 안붙혀도 됨
 - 이동한 거리 계산 법 : 현재 위치 - 시작 위치
-<img src="../../../../Image/Pasted image 20240628125339.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628125339.png">
 - 편집할 필요는 없으면 UPROPERTY(VisibleAnywhere) 처리
 
 ##### 57강
  - 다음과 같이 코드 작성 시 속도가 너무 빠를 경우 원하는 StartLocation을 넘어버릴 수 있음
- <img src="../../../../Image/Pasted image 20240628131508.png">
+ <img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628131508.png">
  - 다음과 같이 Normal Vector를 통해 정확한 도착 위치를 설정
-<img src="../../../../Image/Pasted image 20240628131808.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628131808.png">
 
 ##### 58강
 - 생성한 C++ Class 기반의 블루프린트 생성 가능
-<img src="../../../../Image/Pasted image 20240628133059.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628133059.png">
 
 ##### 59강
 - Actor간 충돌간에 글리치 현상 발생 시(멈춰있을 때) 가만히 있는 경우에도 Sweep(충돌 감지)를 하게 해줘서 해결
-<img src="../../../../Image/Pasted image 20240628141503.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628141503.png">
 ##### 60강
 - 원하는 장소에서 플레이 디버깅을 하고싶을 경우 뷰 포트 우클릭 후 Play Form Here로 가능
-<img src="../../../../Image/Pasted image 20240628142131.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628142131.png">
 - 이를 위해서는 Gamemode를 통해 사용할 Pawn이 설정 + Player Start 배치가 되있어야함.
 
 ##### 61강
 - Log를 통한 디버깅 가능(snipchat extention 깔려 있을 시 ulog만 입력해도 가능)
- <img src="../../../../Image/Pasted image 20240628145241.png">
+ <img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628145241.png">
  - 첫 번째 인수 : 보통 LogTemp 사용
  - 두 번째 인수 : Display, Warning, Error 3개 사용
  - 세 번째 인수 : 출력할 텍스트값 사용 변수 값 출력시 % 포맷 사용
@@ -171,9 +171,9 @@
 - 당연히 const 함수 내 const가 아닌 함수 호출 불가능
 ##### 66강
 - Rotation을 Update하는 부분에서 다음과 같이 Moving을 구현한 것과 똑같이 적용하면 오류가 발생 : -90도에서 +90도로 바뀌는 현상
-<img src="../../../../Image/Pasted image 20240628154146.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628154146.png">
 -  이를 위해 다음과 같은 함수를 사용
- <img src="../../../../Image/Pasted image 20240628154216.png">
+ <img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628154216.png">
 
 #### Crpyt Raider 게임 제작 시작(69강 ~ 111강)
 ##### 71강
@@ -183,7 +183,7 @@
 
 ##### 72강
 - 4분할 Wireframe을 통해 다음과 같은 모듈화 배치를 정확하게 가능 (이때, 오른쪽 위 격자 이동 범위를 조정하면 더 쉬움)
-<img src="../../../../Image/Pasted image 20240628173739.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628173739.png">
 
 ##### 73강
 - scale 조작을 통해 좌우/상하 반전 편집 가능
@@ -193,7 +193,7 @@
 
 ##### 75강
 - Lighting 종류
-<img src="../../../../Image/Pasted image 20240628190445.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628190445.png">
 - Directional Light : 태양광 구현
 - Point Light : 퍼져나가는 광원
 - Spot Light : 스포트라이트 효과-방향성이 있는 광원
@@ -219,28 +219,28 @@
 - Attenuation Radius로 범위 조절 가능(작게 하면 그림자 연산 줄어들어서 성능 증가)
 - Intencity로 세기 조절 가능
 - 해당 Instance의 변경을 Blueprint에 적용
-<img src="../../../../Image/Pasted image 20240628203006.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240628203006.png">
 #### Unreal Engine 5 C++ 개발자  
 ##### 78강
 - Inheritance : 상위 클래스에 중복 로직을 구현해두고 이를 물려받아 코드를 재사용하는 방법(Is-a)
-<img src="../../../../Image/Pasted image 20240630143937.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630143937.png">
 - Composition : 다른객체의 인스턴스를 자신의 인스턴스 변수로 포함해서 메서드를 호출(has-a)
-<img src="../../../../Image/Pasted image 20240630144433.png"> 
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630144433.png"> 
 
 ##### 79강
 - Component 생성법
-<img src="../../../../Image/Pasted image 20240630145237.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630145237.png">
 ##### 81강
 - 다음과 같이 Owner의 함수 호출 가능
-<img src="../../../../Image/Pasted image 20240630151037.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630151037.png">
 
 ##### 82강
-<img src="../../../../Image/Pasted image 20240630151525.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630151525.png">
 
 ##### 83강
 - Bool에 따라 벽을 움직이는 코드 구현(VInterpConstantTo 사용이 핵심)
 - Actor가 움직이지 않을 시 Mobility가 Static이 아닌가 확인
-<img src="../../../../Image/Pasted image 20240630153909.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630153909.png">
 
 ##### 84강
 - 씬 컴포넌트 : 다른 Scene에 Attatch할 수 있어서 Transform값을 동기화할 수 있음.
@@ -249,16 +249,16 @@
 ##### 85강
 - 물체 인식(트레이스) 대표적인 방식 2가지
 - Line Trace
-<img src="../../../../Image/Pasted image 20240630155653.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630155653.png">
 - Shape Trace
-<img src="../../../../Image/Pasted image 20240630155706.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630155706.png">
 - Trace Channel : 특정 물체만 잡고 싶거나 복잡한 Trace 로직 구현시
 - Block, Ingnore은 해당 트레이스에서 막을거냐(인식), 무시할꺼냐(통과)를 물음
 - 생성한 Channel이 안나올시 프로젝트 재시작
 
 ##### 86강
 - UWorld : 최상위 Object 이를 통해 Trace함수 호출 가
-<img src="../../../../Image/Pasted image 20240630160816.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630160816.png">
 ```C++ 
 //다음과 같은 방식으로 UWorld 사용 가능
 #include "Engine/World.h"
@@ -335,7 +335,7 @@ else{
 - Enhanced Input 사용
 - Input Action와 Input Mapping Context 생성
 - Player Blueprint에 다음과 같은 노드 연결
-<img src="../../../../Image/Pasted image 20240630184213.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630184213.png">
 
 ##### 93강
 - Trace Preset 수정 : Collision Preset 검색 후 Custom으로 바꾸고 확장
@@ -348,7 +348,7 @@ void Grab();
 UFUNCTION(BlueprintCallable)
 void Release();
 ```
-<img src="../../../../Image/Pasted image 20240630190624.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240630190624.png">
 
 ##### 94강
 - 상위 Actor에서 다른 Component 가져오는법(FindComponentByClass<>사용)
@@ -411,11 +411,11 @@ if (PhysicsHandle->GetGrabbedComponent() != nullptr)
 - Overlap 이벤트 설정 시 아래와 같이 Generate Overlap Event 활설화 후 Preset 설정
 - 이때 Generate Overlap Event는 사물 2개 모두 켜져있어야 사물 간 이벤트 발생
 
-<img src="../../../../Image/Pasted image 20240713171714.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240713171714.png">
 - 블루프린트를 통해 Trigger(자체 C++ 코드), Collision 생성 후 범위 지정
-<img src="../../../../Image/Pasted image 20240713171859.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240713171859.png">
 - 해당 트리거를 통해 이벤트 노드에  On Component Begin Overlap 생성(찾아도 안나올시 좌측 탭에서 해당 트리거 클릭 후 우클릭 해보자.)
-<img src="../../../../Image/Pasted image 20240713172009.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240713172009.png">
 
 ##### 100강
 - Component 생성 시 Tick이 활성화 되있지 않을 수 있음(최적화 때문)\
@@ -497,7 +497,7 @@ GrabbedActor->Tags.Remove("Grabbed");
 ##### 110강
 - 뒤돌 때마다 어두워지는 문제는 포스트 프로세스 문제
 - 해결 법 : postprocessVolume을 생성 후 Global 폴더로 이동
-<img src="../../../../Image/Pasted image 20240718160932.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240718160932.png">
 - 이동 후 맵 전체에 적용될 수 있도록 범위를 늘린 후 detail 패널에서 Metering Mode 활성화후 Auto Exposure Histogram -> Auto Exposure Basic으로 변경
 - Trigger와 Mover가 각기 다른 Actor의 Component일 시 Level 블루프린터에서 연결 가능
 - 다음은 Grab한 Actor를 다시 활성화하는 코드
@@ -510,7 +510,7 @@ HitActor->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
 ```
 #### Unreal Engine 5 C++ 개발자  
 ##### 114강
-<img src="../../../../Image/Pasted image 20240721145600.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240721145600.png">
 
 ##### 115강
 - 전방 선언 : .h에서 다른 include를 불러오는 것은 상속 과정에서 코드가 쓸데 없이 증가하는 문제가 발생한다. 이에 .h에는 전방 선언을 사용 후 실제로 세부 구현이 이뤄지는 .cpp에서 include를 진행
@@ -539,7 +539,7 @@ TurretMesh->SetupAttachment(BaseMesh);
 ```
 
 ##### 120강
-<img src="../../../../Image/Pasted image 20240721165243.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240721165243.png">
 ##### 121강
 - Component는 VisibleAnywhere 사용 추천
 ##### 122강
@@ -602,7 +602,7 @@ void ATank::Turn(float Value)
 ##### 128강
 - AplayerController는 Pawn에 할당되는 Controller
 - 코드에서는 APawn::GetController로 불러오며 이를 변수에 할당하여야 사용가능
-<img src="../../../../Image/Pasted image 20240724152227.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240724152227.png">
 - 다만 GetController()로 반환되는 값은 AController이다.
 - 하위 항목인 APlyaerController에 상위 항목인 AController를 저장할 순 없음 -> Cast 사용
 ```C++
@@ -721,7 +721,7 @@ ProjectileMesh->OnComponentHit.AddDynamic(this, &AProjectile::OnHit);
 ##### 138강
 - UActorComponent : No Transform, No attachment
 - USceneComponent : Has Transform, Has Attachment
-<img src="../../../../Image/Pasted image 20240726164557.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240726164557.png">
 ```C++
 //Create a callback
 // .h | private:
@@ -737,7 +737,7 @@ GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::DamageTaken);
 - AGameMode : 멀티 플레
 
 ##### 141강
-<img src="../../../../Image/Pasted image 20240726201817.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240726201817.png">
 - HandleDestruction 구현
 ```C++
 // in Tower
@@ -836,7 +836,7 @@ if(ToonTanksPlayerController)
 - UFUNCTION(BlueprintImplementableEvent) 시 C++에서 정의할 필요 없이 블루프린트에서 구현 가능
 - Widget BluePrint에서 Text나 Button같은 요소를 두기 위해서는 먼저 Canvas Pannel을 사용
 - Widget을 화면상에 보이기 위해서는 블루프린트 노드 Create Widget -> Add Viewport 연결
-<img src="../../../../Image/Pasted image 20240727140833.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240727140833.png">
 
 ##### 145강
 - 카운트다운 처리 시 간단하게 Switch 사용 가능
@@ -844,15 +844,15 @@ if(ToonTanksPlayerController)
 
 ##### 146강
 - Widget 요소에서 Is Variable 활성화 시 Graph에서 변수로 사용 가능
-<img src="../../../../Image/Pasted image 20240727142509.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240727142509.png">
 - 변수로 만들 시 다음과 같이 Text 내용 변경 가능
-<img src="../../../../Image/Pasted image 20240727142616.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240727142616.png">
 - 더이상 위젯이 필요 없는 경우 다음 노드로 삭제 가능
-<img src="../../../../Image/Pasted image 20240727142644.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240727142644.png">
 
 ##### 147강
 - 필드 내 특정 Actor의 갯수가 알고 싶을 시 :  UGameplayStatics::GetAllActorsOfClass를 사용하여 특정 Actor들의 포인터 배열을 생성 후 .NUM()을 사용하여 배열의 크기로 알아내기
-<img src="../../../../Image/Pasted image 20240727143850.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240727143850.png">
 ```C++
 int32 AToonTanksGameMode::GetTargetTowerCount()
 {
@@ -864,7 +864,7 @@ int32 AToonTanksGameMode::GetTargetTowerCount()
 
 ##### 148강
 - True/False에 따라 다른 값이 필요할 시 Branch 노드도 유용하지만, Select도 편리
-<img src="../../../../Image/Pasted image 20240727144347.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240727144347.png">
 
 ##### 149강
 -  파티클 다루기
@@ -921,40 +921,40 @@ GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(HitCameraShakeClas
 - SprintArm의 Camera Lag 설정을 변경하여 카메라 무빙을 좀 더 부드롭게 변경 가능(선택 사항)
 #### Unreal Engine 5 C++ 개발자  
 ##### 159강
-<img src="../../../../Image/Pasted image 20240728141630.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728141630.png">
 - Controller를 통한 조작 시 DeltaTime을 통한 계산 필수
 
 ##### 160강
 - 카메라 세부적인 위치 조정은 스프링암의 Offset 조절
-<img src="../../../../Image/Pasted image 20240728143007.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728143007.png">
 - 카메라가 회전을 따라오지 않는다면 detail 체크
- <img src="../../../../Image/Pasted image 20240728145806.png">
+ <img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728145806.png">
 
 ##### 162강
 - 콜리전 오류 발생 시 에디터의 View 모드를 바꿔서 확인 가능
-<img src="../../../../Image/Pasted image 20240728150224.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728150224.png">
 - 이후 해당 Actor 클릭 후 Mesh로 이동해서 Collision 편리
 
 ##### 163강
 - 애니메이션 블루프린터에서는 Blend 함수를 통해 두 애니메이션간 혼합 가능
 - 하지만 이는 이동 애니메이션과는 적합하지 않음
-<img src="../../../../Image/Pasted image 20240728160649.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728160649.png">
 
 
 ##### 164강
 - 애니메이션간 적절한 혼합-변환을 위해서는 Blend Space 기능 활용
 - 다음과 같이 설정 가능
-<img src="../../../../Image/Pasted image 20240728160623.png">
-<img src="../../../../Image/Pasted image 20240728160635.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728160623.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728160635.png">
 ##### 165강
 - 만들어진 Blend Space는 다음과 같이 Animation Blueprint에서 사용 가능
-<img src="../../../../Image/Pasted image 20240728161348.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728161348.png">
 - 이때 Angle과 Speed와 같이 애니메이션을 결정 짓는 입력값들은 Animation Blueprint Event Graph에서 설정 가능. 다음은 Speed를 설정한 모습
-<img src="../../../../Image/Pasted image 20240728161513.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728161513.png">
 
 ##### 166강
 - 각도 계산은 로컬 트랜스폼에서 진행되어야함. 이를 포함한 계산 식
-<img src="../../../../Image/Pasted image 20240728164146.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728164146.png">
 
 ##### 167강
 - 발미끄러짐 현상을 최소화하기 위해서는 애니메이션 속도 계산 필요
@@ -978,7 +978,7 @@ Gun = GetWorld()->SpawnActor<AGun>(GunClass);
 ##### 170강
 - Socket을 통한 Mesh 부착하기
 - 1. Socket 만들기 : Skeletal 설정에 가서 Add Socket 사용용
-<img src="../../../../Image/Pasted image 20240728190050.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240728190050.png">
 - 2. 코드를 통해 캐릭터에 해당 Mesh 부착
 ```C++
 //기존에 있던 총 숨기기
@@ -1075,7 +1075,7 @@ bool IsDead() const;
 - AIController 기반 C++ class 생성
 - 해당 클래스 기반 블루프린트 생성
 - 이후 Character BP의 Detail에서 Pawn\AI Controller Class 설정 변경
-- <img src="../../../../Image/Pasted image 20240802142026.png">
+- <img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802142026.png">
 
 ##### 182강
 - AIController 내장 함수에는 Focus를 설정하는 함수가 3개 존재
@@ -1102,7 +1102,7 @@ void AShooterAIController::BeginPlay()
 ##### 183강
 - AI가 User를 쫓아오게 하기
 	1. Nav Mesh를 통해 이동 가능한 구역 설정
-	<img src="../../../../Image/Pasted image 20240802144747.png">
+	<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802144747.png">
 	2. AIController에서 코드 작성
 	```C++
 	APawn *PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
@@ -1158,15 +1158,15 @@ if (AIBehavior != nullptr)
 
 ##### 187강
 - BlackBoard에서 설정한 값들을 이용하여 Behavior Tree 구성 가능
-<img src="../../../../Image/Pasted image 20240802154941.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802154941.png">
 
 ##### 188강
 - Behavior Tree Selector 노드 : Left to Right로 실행 단, 자식 노드중 하나라도 실행이 완료되면 종료
 - Decorator : Sequence노드에 Decorator를 추가해서 Loop나, 참-거짓 등 다양한 효과 추가 가능
-<img src="../../../../Image/Pasted image 20240802160118.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802160118.png">
 - Blackboard Decorator는 특정 변수가 갱신될 때 참을 반환
 - 다음은 Tree 예시 구현 : PlayerLocation이 Set-갱신되는 경우(AI가 Player를 발견) Player를 쫓음 그 외에는 Player가 마지막으로 발견된 장소에서 대
-<img src="../../../../Image/Pasted image 20240802160334.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802160334.png">
 - Blackboard Deco의 경우 Observer aborts 설정 가능
 	- None : 아무 효과 없음
 	- Self : Chase 실행 중 조건이 거짓이 되면 하던 작업을 멈추고 Selector를 재평
@@ -1225,7 +1225,7 @@ EBTNodeResult::Type UBTTask_ClearBlackboardValue::ExecuteTask(UBehaviorTreeCompo
 
 ##### 191강
 - Task 노드에서 Observe Blackboard Value 활성화 시 Value 값을 지속적으로 업데이
- <img src="../../../../Image/Pasted image 20240802163641.png">
+ <img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802163641.png">
  - Pawn의 함수를 사용하는 Task 생성 예시, 이때 호출하는 함수는 Public 이여야함.
 ```C++
 #include "AIController.h"
@@ -1277,7 +1277,7 @@ void UBTService_PlayerLocationIfSeen::TickNode(UBehaviorTreeComponent &OwnerComp
 }
 ```
 - Service를 추가한 모습(초록색)
-<img src="../../../../Image/Pasted image 20240802172633.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802172633.png">
 
 ##### 193강
 - 총이 자기 자신을 맞추는 문제 해결
@@ -1305,7 +1305,7 @@ if (IsDead())
 
 ##### 194강
 - 자체 GameMode 만든 후 다른 코드에서 해당 GameMode의 함수 호출하기
-<img src="../../../../Image/Pasted image 20240802174009.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802174009.png">
 ```C++
 //ShooterCharacter.cpp | TakenDamage()
 `#include "SimpleShooterGameModeBase.h"`
@@ -1368,7 +1368,7 @@ for (AController* Controller : TActorRange<AController>(GetWorld()))
 ##### 199강
 - Refactoring 예시
 - 원본
-<img src="../../../../Image/Pasted image 20240802211648.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802211648.png">
 - 수정
 ```C++
 void AGun::PullTrigger()
@@ -1423,7 +1423,7 @@ AController* AGun::GetOwnerController() const
 
 ##### 201강
 - 사운드를 더 풍부하게 하기 위해 Sound_Cue 사용 가능
-<img src="../../../../Image/Pasted image 20240802213336.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802213336.png">
 - Random : 입력 핀의 사운드를 랜덤하게 하나 골라 재생(Detail에서 비복원/복원 설정 가능)
 - Modulator : Pitch와 Volume을 랜덤하게 설정해 재생
 - 여러 오디오를 한 번에 불러올 때는 Editor의 Content browser에서 다중 선택 후 Cue에서 우클릭 시 간단하게 불러오기 가능
@@ -1431,30 +1431,30 @@ AController* AGun::GetOwnerController() const
 ##### 202강
 - 사운드를 공간화(거리에 따른 감쇠, 좌우 스테레오 음향)을 위해서는 어테뉴에이션 설정
 - Cue의 Detail 패널에서 설정 가능
-<img src="../../../../Image/Pasted image 20240802220547.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240802220547.png">
 #### Unreal Engine 5 C++ 개발자  
 ##### 204강
 - 체력바와 같은 HUD 구현을 위해서는 progress bar를 사용
 - progress bar의 percent를 bind를 통해 상태 변화 함수와 연결
-<img src="../../../../Image/Pasted image 20240803200700.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240803200700.png">
 ##### 205강
 - 에임 오프셋 : Additive Animation으로 다른 애니메이션 위에 얹은 변형된 애니메이션이다. 이에 다른 애니메이션을 실행하면서 동시에 실행이 가능하다. 
 - 해당 강의에서는 위-아래 에임 이동을 Pawn이 따라가도록 하기 위해 사용하였다.
 - 아래는 유저의 회전을 계산해 Animation의 변수인 Anim_Pitch를 Set하는 예시이다.
-<img src="../../../../Image/Pasted image 20240803202732.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240803202732.png">
 
 ##### 206강
 - State Machine : 여러 애니메이션간 전환을 간편하게 하기 위한 시스템.
 - 아래와 같이 필요한 애니메이션들을 State로 만든뒤 연결하는 핀에서 전환 조건 검사
-<img src="../../../../Image/Pasted image 20240803205028.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240803205028.png">
 
 ##### 207강
 - 다음 블루프린트 Node 'Is Falling'를 통해 현재 캐릭터가 점프중인지를 검사
-<img src="../../../../Image/Pasted image 20240803205548.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240803205548.png">
 - State간 연결된 핀에서 이전 동작이 끝난 직후 바로 다음 애니메이션 재생을 원한다면(특정한 조건이 없다면) Detail 창에서 다음 설정 True
-<img src="../../../../Image/Pasted image 20240803205944.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240803205944.png">
 - Blend 옵션을 통해 애니메이션간 전환을 더 부드럽게 조정 가능
-<img src="../../../../Image/Pasted image 20240803211322.png">
+<img src="https://raw.githubusercontent.com/KINGWONWOO/obsidian/main/Image/Pasted image 20240803211322.png">
 - State간 중첩 가능
 
 ##### 208강
